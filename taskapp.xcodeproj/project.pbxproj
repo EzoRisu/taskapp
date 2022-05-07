@@ -14,6 +14,7 @@
 		FF7E221D281E7AF80075AECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E221B281E7AF80075AECE /* Main.storyboard */; };
 		FF7E221F281E7AFB0075AECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7E221E281E7AFB0075AECE /* Assets.xcassets */; };
 		FF7E2222281E7AFB0075AECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E2220281E7AFB0075AECE /* LaunchScreen.storyboard */; };
+		FFA4CFC62823F7F00055BB65 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4CFC52823F7F00055BB65 /* Task.swift */; };
 		FFBDC163282305DC00BDB8C4 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBDC162282305DC00BDB8C4 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		FF7E221E281E7AFB0075AECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7E2221281E7AFB0075AECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7E2223281E7AFB0075AECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA4CFC52823F7F00055BB65 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		FFBDC162282305DC00BDB8C4 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				5FE124EAB394B59D8433349E /* Pods-taskapp.debug.xcconfig */,
 				FD36547AE16640A6D9F72537 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				FF7E221E281E7AFB0075AECE /* Assets.xcassets */,
 				FF7E2220281E7AFB0075AECE /* LaunchScreen.storyboard */,
 				FF7E2223281E7AFB0075AECE /* Info.plist */,
+				FFA4CFC52823F7F00055BB65 /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -212,6 +214,7 @@
 			files = (
 				FF7E221A281E7AF80075AECE /* ViewController.swift in Sources */,
 				FF7E2216281E7AF80075AECE /* AppDelegate.swift in Sources */,
+				FFA4CFC62823F7F00055BB65 /* Task.swift in Sources */,
 				FF7E2218281E7AF80075AECE /* SceneDelegate.swift in Sources */,
 				FFBDC163282305DC00BDB8C4 /* InputViewController.swift in Sources */,
 			);
